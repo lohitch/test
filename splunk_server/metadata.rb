@@ -1,6 +1,6 @@
 name             'splunk_server'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Opex Software'
+maintainer_email 'lohit.halemani@opexsoftware.com'
 license          'All rights reserved'
 description      'Installs/Configures splunk_server'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
