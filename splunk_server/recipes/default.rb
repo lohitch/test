@@ -2,7 +2,7 @@
 # Cookbook Name:: splunk_server
 # Recipe:: default
 #
-# Copyright 2015, Opex Software
+# Copyright 2015, Opex Software.
 #
 # All rights reserved - Do Not Redistribute
 #
