@@ -24,7 +24,7 @@ Vagrant.configure(2) do |config|
 
     d.vm.provider :virtualbox do |v|
       v.customize 'pre-boot', ['modifyvm', :id, '--nictype1', 'virtio']
-      v.customize [ 'modifyvm', :id, '--name', 'splunk_server', '--memory', '1024', '--cpus', '1' ]
+      v.customize [ 'modifyvm', :id, '--name', 'splunkserver', '--memory', '1000', '--cpus', '1' ]
     end
 
   end
