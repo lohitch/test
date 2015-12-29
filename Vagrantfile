@@ -9,15 +9,15 @@ Vagrant.configure(2) do |config|
    config.vm.boot_timeout=600
    config.vm.box = "ubuntu/trusty64"
    config.vm.network :private_network, ip: "10.0.15.25"
-   config.vm.network :forwarded_port, guest: 80, host: 1010 
+   config.vm.network :forwarded_port, guest: 80, host: 1111 
 
 
    config.ssh.forward_agent = true
    config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
 
-   config.vm.define :'splunk1' do |d|
+   config.vm.define :'splunkserver' do |d|
 
-    d.vm.hostname = 'splunk1'
+    d.vm.hostname = 'splunkserver'
     d.vm.synced_folder '.', '/vagrant', id: 'vagrant-root', disabled: true
 
     
