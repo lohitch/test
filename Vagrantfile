@@ -15,9 +15,9 @@ Vagrant.configure(2) do |config|
    config.ssh.forward_agent = true
    config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
 
-   config.vm.define :'splunk' do |d|
+   config.vm.define :'splunk1' do |d|
 
-    d.vm.hostname = 'splunk'
+    d.vm.hostname = 'splunk1'
     d.vm.synced_folder '.', '/vagrant', id: 'vagrant-root', disabled: true
 
     
