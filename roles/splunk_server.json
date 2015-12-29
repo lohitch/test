@@ -1,5 +1,5 @@
 {
-  "name": "splunk",
+  "name":  "splunk",
   "description": "A role to install and setup jenkins",
   "chef_type": "role",
   "json_class": "Chef::Role",
