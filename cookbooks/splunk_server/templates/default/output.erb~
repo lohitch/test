@@ -1,0 +1,3 @@
+[tcpout]
+ disabled=false
+ defaultGroup=indexCluster
