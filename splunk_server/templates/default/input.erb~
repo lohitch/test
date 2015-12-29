@@ -1,9 +1,0 @@
-# The following configuration directs Splunk to read all the files in the directory /var/log.
-
-[monitor:///var/log]
-
-# The following configuration directs Splunk to listen on TCP port 9997 for raw data from ANY remote server 
-# (not just a Splunk instance). The host of the data is set to the IP address of the remote server.
-
- [tcp://:9997]
-

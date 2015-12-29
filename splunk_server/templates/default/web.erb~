@@ -1,3 +1,0 @@
-  [settings]
-
- mgmtHostPort = <%= @ipaddress%>:<%= @port %>
