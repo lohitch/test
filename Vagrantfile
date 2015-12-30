@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
    config.vm.boot_timeout=600
    config.vm.box = "ubuntu/trusty64"
    config.vm.network :private_network, ip: "10.0.15.25"
-   config.vm.network :forwarded_port, guest: 80, host: 1212 
+   config.vm.network :forwarded_port, guest: 80, host: 3333
 
 
    config.ssh.forward_agent = true
