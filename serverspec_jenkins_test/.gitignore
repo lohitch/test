@@ -1,0 +1,4 @@
+.idea
+.idea/*
+.rspec
+test.rb
