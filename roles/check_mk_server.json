@@ -1,0 +1,9 @@
+{
+  "name": "check_mk_server",
+  "description": "A role to install and setup Check_MK Server",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[check_mk_server]"
+  ]
+}
